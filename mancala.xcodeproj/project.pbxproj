@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6964BA511BC8AE9A0003431E /* MancalaBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6964BA4F1BC8AE9A0003431E /* MancalaBoard.cpp */; settings = {ASSET_TAGS = (); }; };
+		6964BA571BC8D1260003431E /* MancalaManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6964BA551BC8D1260003431E /* MancalaManager.cpp */; settings = {ASSET_TAGS = (); }; };
+		697A344C1BCD973F00A0CD55 /* AlphaBetaPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 697A344A1BCD973F00A0CD55 /* AlphaBetaPlayer.cpp */; settings = {ASSET_TAGS = (); }; };
+		697A344F1BCE3A4900A0CD55 /* FileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 697A344D1BCE3A4900A0CD55 /* FileUtils.cpp */; settings = {ASSET_TAGS = (); }; };
+		697A34511BCE4E4F00A0CD55 /* mancala.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 697A34501BCE4E4F00A0CD55 /* mancala.cpp */; settings = {ASSET_TAGS = (); }; };
+		6998B70F1BC9B95E001977A2 /* GreedyPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6998B70D1BC9B95E001977A2 /* GreedyPlayer.cpp */; settings = {ASSET_TAGS = (); }; };
+		69C2C8BB1BED6449006736A0 /* TimedAlphaBetaPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69C2C8B91BED6449006736A0 /* TimedAlphaBetaPlayer.cpp */; settings = {ASSET_TAGS = (); }; };
+		69F1E8C41BC9F57100430BB6 /* MiniMaxPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69F1E8C21BC9F57100430BB6 /* MiniMaxPlayer.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6964BA401BC8A7C10003431E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6964BA421BC8A7C20003431E /* mancala */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mancala; sourceTree = BUILT_PRODUCTS_DIR; };
+		6964BA4F1BC8AE9A0003431E /* MancalaBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MancalaBoard.cpp; sourceTree = "<group>"; };
+		6964BA501BC8AE9A0003431E /* MancalaBoard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MancalaBoard.hpp; sourceTree = "<group>"; };
+		6964BA551BC8D1260003431E /* MancalaManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MancalaManager.cpp; sourceTree = "<group>"; };
+		6964BA561BC8D1260003431E /* MancalaManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MancalaManager.hpp; sourceTree = "<group>"; };
+		697A344A1BCD973F00A0CD55 /* AlphaBetaPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlphaBetaPlayer.cpp; sourceTree = "<group>"; };
+		697A344B1BCD973F00A0CD55 /* AlphaBetaPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AlphaBetaPlayer.hpp; sourceTree = "<group>"; };
+		697A344D1BCE3A4900A0CD55 /* FileUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtils.cpp; sourceTree = "<group>"; };
+		697A344E1BCE3A4900A0CD55 /* FileUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileUtils.hpp; sourceTree = "<group>"; };
+		697A34501BCE4E4F00A0CD55 /* mancala.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mancala.cpp; sourceTree = "<group>"; };
+		6998B70D1BC9B95E001977A2 /* GreedyPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GreedyPlayer.cpp; sourceTree = "<group>"; };
+		6998B70E1BC9B95E001977A2 /* GreedyPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GreedyPlayer.hpp; sourceTree = "<group>"; };
+		69C2C8B91BED6449006736A0 /* TimedAlphaBetaPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimedAlphaBetaPlayer.cpp; sourceTree = "<group>"; };
+		69C2C8BA1BED6449006736A0 /* TimedAlphaBetaPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TimedAlphaBetaPlayer.hpp; sourceTree = "<group>"; };
+		69F1E8C21BC9F57100430BB6 /* MiniMaxPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniMaxPlayer.cpp; sourceTree = "<group>"; };
+		69F1E8C31BC9F57100430BB6 /* MiniMaxPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MiniMaxPlayer.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6964BA3F1BC8A7C10003431E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6964BA391BC8A7C10003431E = {
+			isa = PBXGroup;
+			children = (
+				6964BA441BC8A7C20003431E /* mancala */,
+				6964BA431BC8A7C20003431E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6964BA431BC8A7C20003431E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6964BA421BC8A7C20003431E /* mancala */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6964BA441BC8A7C20003431E /* mancala */ = {
+			isa = PBXGroup;
+			children = (
+				6964BA4F1BC8AE9A0003431E /* MancalaBoard.cpp */,
+				6964BA501BC8AE9A0003431E /* MancalaBoard.hpp */,
+				6964BA551BC8D1260003431E /* MancalaManager.cpp */,
+				6964BA561BC8D1260003431E /* MancalaManager.hpp */,
+				6998B70D1BC9B95E001977A2 /* GreedyPlayer.cpp */,
+				6998B70E1BC9B95E001977A2 /* GreedyPlayer.hpp */,
+				69F1E8C21BC9F57100430BB6 /* MiniMaxPlayer.cpp */,
+				697A344B1BCD973F00A0CD55 /* AlphaBetaPlayer.hpp */,
+				69F1E8C31BC9F57100430BB6 /* MiniMaxPlayer.hpp */,
+				697A344A1BCD973F00A0CD55 /* AlphaBetaPlayer.cpp */,
+				697A344D1BCE3A4900A0CD55 /* FileUtils.cpp */,
+				697A344E1BCE3A4900A0CD55 /* FileUtils.hpp */,
+				697A34501BCE4E4F00A0CD55 /* mancala.cpp */,
+				69C2C8B91BED6449006736A0 /* TimedAlphaBetaPlayer.cpp */,
+				69C2C8BA1BED6449006736A0 /* TimedAlphaBetaPlayer.hpp */,
+			);
+			path = mancala;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6964BA411BC8A7C10003431E /* mancala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6964BA491BC8A7C20003431E /* Build configuration list for PBXNativeTarget "mancala" */;
+			buildPhases = (
+				6964BA3E1BC8A7C10003431E /* Sources */,
+				6964BA3F1BC8A7C10003431E /* Frameworks */,
+				6964BA401BC8A7C10003431E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mancala;
+			productName = mancala;
+			productReference = 6964BA421BC8A7C20003431E /* mancala */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6964BA3A1BC8A7C10003431E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Adobe;
+				TargetAttributes = {
+					6964BA411BC8A7C10003431E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6964BA3D1BC8A7C10003431E /* Build configuration list for PBXProject "mancala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6964BA391BC8A7C10003431E;
+			productRefGroup = 6964BA431BC8A7C20003431E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6964BA411BC8A7C10003431E /* mancala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6964BA3E1BC8A7C10003431E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6998B70F1BC9B95E001977A2 /* GreedyPlayer.cpp in Sources */,
+				697A34511BCE4E4F00A0CD55 /* mancala.cpp in Sources */,
+				69F1E8C41BC9F57100430BB6 /* MiniMaxPlayer.cpp in Sources */,
+				69C2C8BB1BED6449006736A0 /* TimedAlphaBetaPlayer.cpp in Sources */,
+				697A344F1BCE3A4900A0CD55 /* FileUtils.cpp in Sources */,
+				697A344C1BCD973F00A0CD55 /* AlphaBetaPlayer.cpp in Sources */,
+				6964BA511BC8AE9A0003431E /* MancalaBoard.cpp in Sources */,
+				6964BA571BC8D1260003431E /* MancalaManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6964BA471BC8A7C20003431E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6964BA481BC8A7C20003431E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6964BA4A1BC8A7C20003431E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6964BA4B1BC8A7C20003431E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6964BA3D1BC8A7C10003431E /* Build configuration list for PBXProject "mancala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964BA471BC8A7C20003431E /* Debug */,
+				6964BA481BC8A7C20003431E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6964BA491BC8A7C20003431E /* Build configuration list for PBXNativeTarget "mancala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6964BA4A1BC8A7C20003431E /* Debug */,
+				6964BA4B1BC8A7C20003431E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6964BA3A1BC8A7C10003431E /* Project object */;
+}
