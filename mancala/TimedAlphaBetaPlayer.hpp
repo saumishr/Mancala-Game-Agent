@@ -29,6 +29,5 @@ private:
     unsigned long long  m_startTime;
     int                 m_maxDepth;
     unsigned long       m_timeTolerance;
-    unsigned long long  m_timeLimit;
 };
 #endif /* TimedAlphaBetaPlayer_hpp */
